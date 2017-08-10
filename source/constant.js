@@ -4,12 +4,19 @@
 const GameItemType = {
     NO_TYPE: "NO_TYPE",
     GOLD: "GOLD",
-    CHEST_1:"CHEST_1",
-    CHEST_2:"CHEST_2",
+    CHEST_1: "CHEST_1",
+    CHEST_2: "CHEST_2",
     CHEST_3: "CHEST_3",
-    COIN:"COIN",
-    DICE_1:"DICE_1",
+    COIN: "COIN",
+    DICE_1: "DICE_1",
     DICE_2: "DICE_2",
     DICE_3: "DICE_3"
 };
-export default GameItemType;
+
+const GiftCodeTye = {
+    GENERAL: 1,
+    FOR_USER: 2
+};
+
+
+export  {GameItemType, GiftCodeTye};
